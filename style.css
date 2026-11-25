@@ -1,0 +1,8 @@
+*{box-sizing:border-box}body{margin:0;background:#f3f5fb;color:#20243a;font:16px/1.5 Arial,sans-serif}
+header{padding:30px 18px;text-align:center;color:white;background:linear-gradient(110deg,#253b80,#7045c6)}
+header h1{margin:0 0 6px}header p{margin:0}main{max-width:850px;margin:28px auto;padding:0 16px}
+.card{background:white;border-radius:12px;padding:22px;margin:18px 0;box-shadow:0 3px 16px #1c285018}
+h2{margin-top:0;font-size:20px}input[type=file],input[type=text]{padding:12px;border:1px solid #c9cde0;border-radius:7px;max-width:100%;width:100%;margin:8px 0}
+button{border:0;border-radius:7px;background:#6246c7;color:white;padding:12px 18px;cursor:pointer;font-weight:600}
+button:hover{background:#4933a0}.status{font-weight:600}.error{color:#b42318}.success{color:#167443}
+#answer{margin-top:16px;padding:14px;border-radius:8px;background:#f3f1fc;white-space:pre-wrap}.note{color:#555}

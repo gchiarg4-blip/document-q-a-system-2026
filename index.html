@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Q&A System</title><link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><h1>Document Q&amp;A</h1><p>Ask questions about the information in your document.</p></header>
+<main>
+<section class="card">
+  <h2>1. Upload a document</h2>
+  <p>Supported formats: PDF, DOCX and TXT. Maximum size: 15 MB.</p>
+  <form id="upload-form"><input id="file" name="file" type="file" accept=".pdf,.docx,.txt" required>
+    <button type="submit">Upload &amp; build knowledge base</button></form>
+  <p id="upload-status" class="status" aria-live="polite"></p>
+</section>
+<section class="card">
+  <h2>2. Ask a question</h2>
+  <form id="ask-form"><input id="question" type="text" placeholder="Enter a question about your document" required>
+    <button type="submit">Ask</button></form>
+  <div id="answer" aria-live="polite"></div>
+</section>
+<section class="card note"><h2>About this project</h2>
+<p>This prototype uses text extraction, a keyword knowledge base, an inverted index and rule-based matching. It does not use NLP or RAG.</p></section>
+</main>
+<script src="/static/script.js"></script>
+</body></html>
